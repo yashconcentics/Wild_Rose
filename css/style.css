@@ -5,11 +5,15 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 /* Reset Code */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300;400&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
 body {
     padding: 0;
     margin: 0;
     background: #FFF;
-    font-family: 'Nunito', sans-serif;
+    
 }
 
 body button,
@@ -514,6 +518,9 @@ a.reqe-button {
     }
     #top_hidd{
         display: block;
+    }
+    #top_hidd img{
+        width: 200px;
     }
     #top_nav{
         display: none;   
@@ -1587,7 +1594,10 @@ a.logo {
         letter-spacing: 1px;
     }
 }
-
+.img_resp{
+    width: 200px;
+    margin-right: 2rem;
+}
 @media(max-width: 480px) {
 
     .top-w3layouts,
@@ -1595,7 +1605,11 @@ a.logo {
         flex: 0 0 100%;
         max-width: 100%;
     }
-
+    .img_resp{
+        width: 130px;
+        margin-right: 2.2rem;
+        margin-left: -2rem;
+    }
     .top-w3layouts {
         max-width: 300px;
         margin: 0 auto;
