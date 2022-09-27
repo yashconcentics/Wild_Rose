@@ -495,6 +495,11 @@ a.reqe-button {
 #top_hidd{
     display: none;
 }
+.img_resp_block
+{
+    display: none;
+}
+
 @media screen and (max-width : 480px) {
     .toggle 
     {
@@ -521,6 +526,13 @@ a.reqe-button {
     }
     #top_hidd img{
         width: 200px;
+    }
+    .img_resp_block
+    {
+        display: block;
+        width: 170px;
+        margin-top: 12px;
+        margin-right: 12px;
     }
     #top_nav{
         display: none;   
@@ -1606,9 +1618,10 @@ a.logo {
         max-width: 100%;
     }
     .img_resp{
-        width: 130px;
+        /* width: 130px;
         margin-right: 2.2rem;
-        margin-left: -2rem;
+        margin-left: -2rem; */
+        display: none;
     }
     .top-w3layouts {
         max-width: 300px;
